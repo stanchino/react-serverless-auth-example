@@ -6,8 +6,6 @@ import { ConnectedRouter } from "react-router-redux";
 import createHistory from "history/createBrowserHistory";
 import createStore from "./createStore";
 
-import registerServiceWorker from "./registerServiceWorker";
-
 import App from "./App";
 
 import "./index.css";
@@ -23,4 +21,3 @@ ReactDOM.render(
     </Provider>,
     document.getElementById("root")
 );
-registerServiceWorker();
