@@ -30,6 +30,7 @@ bower_components
 .lock-wscript
 
 # Compiled binary addons (http://nodejs.org/api/addons.html)
+build/
 build/Release
 
 # Dependency directories
@@ -53,3 +54,6 @@ typings/
 
 # Yarn Integrity file
 .yarn-integrity
+
+# WebStorm
+.idea

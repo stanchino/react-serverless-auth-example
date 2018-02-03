@@ -18,7 +18,12 @@
     "url": "https://github.com/stanchino/react-serverless-auth/example"
   },
   "dependencies": {
+    "react-scripts": "^1.1.0",
     "react-serverless-auth": "latest"
   },
-  "scripts": {}
+  "scripts": {
+    "start": "react-scripts start",
+    "test": "react-scripts test",
+    "build": "react-scripts build"
+  }
 }
