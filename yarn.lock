@@ -5307,8 +5307,8 @@ react-scripts@^1.1.0:
     fsevents "1.1.2"
 
 react-serverless-auth@latest:
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/react-serverless-auth/-/react-serverless-auth-1.4.0.tgz#e31cc528b9f9f22ea1fdfa9eb2e08fc3383e3dff"
+  version "1.4.2"
+  resolved "https://registry.yarnpkg.com/react-serverless-auth/-/react-serverless-auth-1.4.2.tgz#d07b0bee5bd18562c2069765d7dad4ccf9164c64"
   dependencies:
     amazon-cognito-identity-js "^1.31.0"
     aws-sdk "^2.188.0"
