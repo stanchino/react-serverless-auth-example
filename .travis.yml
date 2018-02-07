@@ -2,6 +2,8 @@ env:
   global:
     - REACT_APP_COGNITO_USER_POOL_ID=us-east-1_fakepool
     - REACT_APP_COGNITO_CLIENT_ID=fakeclientid
+    - CC_TEST_REPORTER_ID=fffd2f6e9f4872df29f72eaee024578327a8ee123b9a40c08cb66baf9b24620a
+    - COVERALLS_REPO_TOKEN=9JfcgAxRjhea4jYS4wx7K5G6ps0bAHBAY
 language: node_js
 node_js:
   - node
@@ -13,6 +15,12 @@ cache:
   yarn: true
   directories:
     - node_modules
+before_script:
+  - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter ; fi
+  - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then chmod +x ./cc-test-reporter ; fi
+  - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then ./cc-test-reporter before-build ; fi
 script:
   - yarn test --bail --ci --coverage
+after_script:
   - cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js
+  - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT ; fi
