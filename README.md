@@ -1,4 +1,7 @@
 # React Serverless Authentication Components Example
+[![Build Status](https://travis-ci.org/stanchino/react-serverless-auth-example.svg?branch=master)](https://travis-ci.org/stanchino/react-serverless-auth-example)
+[![Coverage Status](https://coveralls.io/repos/github/stanchino/react-serverless-auth-example/badge.svg?branch=master)](https://coveralls.io/github/stanchino/react-serverless-auth-example?branch=master)
+
 Simple React application to demonstrate the usage of the React serverless authentication components package   
 [https://www.npmjs.com/package/react-serverless-auth](https://www.npmjs.com/package/react-serverless-auth).
 
