@@ -1,0 +1,173 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SignUpForm renders without errors 1`] = `
+<form
+  className={undefined}
+  onSubmit={[Function]}
+>
+  <div
+    className="messages"
+  >
+    <div
+      className="flash"
+    />
+  </div>
+  <div>
+    <label />
+    <div>
+      <input
+        autoComplete="email"
+        name="email"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onDragStart={[Function]}
+        onDrop={[Function]}
+        onFocus={[Function]}
+        placeholder="Email"
+        type="text"
+        value=""
+      />
+    </div>
+  </div>
+  <div>
+    <label />
+    <div>
+      <input
+        autoComplete="new-password"
+        name="password"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onDragStart={[Function]}
+        onDrop={[Function]}
+        onFocus={[Function]}
+        placeholder="Password"
+        type="password"
+        value=""
+      />
+    </div>
+  </div>
+  <div>
+    <label />
+    <div>
+      <input
+        autoComplete="new-password"
+        name="password_confirmation"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onDragStart={[Function]}
+        onDrop={[Function]}
+        onFocus={[Function]}
+        placeholder="Confirm Password"
+        type="password"
+        value=""
+      />
+    </div>
+  </div>
+  <button
+    disabled={true}
+    type="submit"
+  >
+    Sign Up
+  </button>
+  <button
+    disabled={true}
+    onClick={[Function]}
+    type="reset"
+  >
+    Cancel
+  </button>
+  <br
+    form={
+      Object {
+        "anyTouched": false,
+        "array": Object {
+          "insert": [Function],
+          "move": [Function],
+          "pop": [Function],
+          "push": [Function],
+          "remove": [Function],
+          "removeAll": [Function],
+          "shift": [Function],
+          "splice": [Function],
+          "swap": [Function],
+          "unshift": [Function],
+        },
+        "asyncValidate": [Function],
+        "asyncValidating": false,
+        "blur": [Function],
+        "change": [Function],
+        "clearSubmit": [Function],
+        "destroy": [Function],
+        "dirty": false,
+        "dispatch": [Function],
+        "error": undefined,
+        "form": "signUp",
+        "handleSubmit": [Function],
+        "initialValues": undefined,
+        "initialize": [Function],
+        "initialized": false,
+        "invalid": false,
+        "pristine": true,
+        "reset": [Function],
+        "submitFailed": false,
+        "submitSucceeded": false,
+        "submitting": false,
+        "touch": [Function],
+        "untouch": [Function],
+        "valid": true,
+        "warning": undefined,
+      }
+    }
+  />
+  <a
+    aria-current={false}
+    className={undefined}
+    form={
+      Object {
+        "anyTouched": false,
+        "array": Object {
+          "insert": [Function],
+          "move": [Function],
+          "pop": [Function],
+          "push": [Function],
+          "remove": [Function],
+          "removeAll": [Function],
+          "shift": [Function],
+          "splice": [Function],
+          "swap": [Function],
+          "unshift": [Function],
+        },
+        "asyncValidate": [Function],
+        "asyncValidating": false,
+        "blur": [Function],
+        "change": [Function],
+        "clearSubmit": [Function],
+        "destroy": [Function],
+        "dirty": false,
+        "dispatch": [Function],
+        "error": undefined,
+        "form": "signUp",
+        "handleSubmit": [Function],
+        "initialValues": undefined,
+        "initialize": [Function],
+        "initialized": false,
+        "invalid": false,
+        "pristine": true,
+        "reset": [Function],
+        "submitFailed": false,
+        "submitSucceeded": false,
+        "submitting": false,
+        "touch": [Function],
+        "untouch": [Function],
+        "valid": true,
+        "warning": undefined,
+      }
+    }
+    href="/auth/reset"
+    onClick={[Function]}
+    style={undefined}
+  >
+    Forgotten Password?
+  </a>
+</form>
+`;

@@ -26,13 +26,42 @@
     "react-router-dom": "^4.2.2",
     "react-router-redux": "next",
     "react-scripts": "^1.1.0",
-    "react-serverless-auth": "latest",
+    "react-serverless-auth": "https://github.com/stanchino/react-serverless-auth.git#development",
     "redux": "^3.7.2",
     "redux-saga": "^0.16.0"
   },
   "scripts": {
     "start": "react-scripts start",
-    "test": "react-scripts test",
+    "test": "react-scripts test --env=jsdom --coverage",
     "build": "react-scripts build"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "jest": "^20.0.4",
+    "jest-enzyme": "^4.2.0",
+    "react-test-renderer": "^16.2.0",
+    "redux-mock-store": "^1.5.1"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx}",
+      "!src/**/shared-examples.{js,jsx}",
+      "!src/*.js",
+      "!<rootDir>/node_modules/"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 100,
+        "functions": 100,
+        "lines": 100,
+        "statements": 100
+      }
+    },
+    "coverageReporters": [
+      "text",
+      "lcov"
+    ]
   }
 }

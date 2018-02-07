@@ -1,0 +1,11 @@
+env:
+  global:
+    - REACT_APP_COGNITO_USER_POOL_ID=us-east-1_fakepool
+    - REACT_APP_COGNITO_CLIENT_ID=fakeclientid
+language: node_js
+node_js:
+  - "stable"
+cache:
+  yarn: true
+  directories:
+    - node_modules

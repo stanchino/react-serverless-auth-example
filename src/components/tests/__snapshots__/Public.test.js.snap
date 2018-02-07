@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Public renders without errors 1`] = `
+<div>
+  Public
+</div>
+`;
