@@ -32,7 +32,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "test": "react-scripts test --env=jsdom --coverage",
+    "test": "react-scripts test --env=jsdom",
     "build": "react-scripts build"
   },
   "devDependencies": {

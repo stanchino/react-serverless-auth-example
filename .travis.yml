@@ -4,8 +4,14 @@ env:
     - REACT_APP_COGNITO_CLIENT_ID=fakeclientid
 language: node_js
 node_js:
-  - "stable"
+  - node
+  - lts/*
+os:
+  - osx
+  - linux
 cache:
   yarn: true
   directories:
     - node_modules
+script:
+  - yarn test --bail --ci --coverage
