@@ -1,18 +1,18 @@
 import React from "react";
 
 import {
-  ActionButton,
   ConfirmationCode,
   ResetButton,
-  ConfirmRegistrationForm as Confirmation,
+  ResendConfirmationCodeButton,
+  ConfirmRegistrationForm,
   SubmitButton,
 } from "react-serverless-auth";
 
 export default props => (
-  <Confirmation {...props}>
+  <ConfirmRegistrationForm {...props}>
     <ConfirmationCode />
-    <ActionButton>Request New Code</ActionButton>
+    <ResendConfirmationCodeButton formType={'registration'}>Resend Code</ResendConfirmationCodeButton>
     <SubmitButton>Confirm</SubmitButton>
     <ResetButton>Reset</ResetButton>
-  </Confirmation>
+  </ConfirmRegistrationForm>
 );

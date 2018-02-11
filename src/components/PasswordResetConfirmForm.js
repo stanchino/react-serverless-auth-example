@@ -5,7 +5,8 @@ import {
   Password,
   PasswordConfirmation,
   ResetButton,
-  PasswordResetConfirmForm ,
+  ResendConfirmationCodeButton,
+  PasswordResetConfirmForm,
   SubmitButton,
 } from "react-serverless-auth";
 
@@ -14,6 +15,7 @@ export default props => (
     <ConfirmationCode />
     <Password autoComplete={"new-password"}/>
     <PasswordConfirmation autoComplete={"new-password"}/>
+    <ResendConfirmationCodeButton formType={'passwordReset'}>Resend Code</ResendConfirmationCodeButton>
     <SubmitButton>Reset Password</SubmitButton>
     <ResetButton>Cancel</ResetButton>
   </PasswordResetConfirmForm>
