@@ -5713,9 +5713,9 @@ react-scripts@^1.1.0:
   optionalDependencies:
     fsevents "^1.1.3"
 
-"react-serverless-auth@https://github.com/stanchino/react-serverless-auth.git#development":
-  version "0.0.0-development"
-  resolved "https://github.com/stanchino/react-serverless-auth.git#c63e58e3880f0adab5f399ea9dcb1f353e7e4526"
+react-serverless-auth@^1.5.0:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/react-serverless-auth/-/react-serverless-auth-1.5.0.tgz#ded9027501d0422fe95a8fcd4aa17e9001ffd5cd"
   dependencies:
     amazon-cognito-identity-js "^1.31.0"
     aws-sdk "^2.188.0"
