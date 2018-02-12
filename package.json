@@ -26,7 +26,7 @@
     "react-router-dom": "^4.2.2",
     "react-router-redux": "next",
     "react-scripts": "^1.1.0",
-    "react-serverless-auth": "https://github.com/stanchino/react-serverless-auth.git#development",
+    "react-serverless-auth": "^1.5.0",
     "redux": "^3.7.2",
     "redux-saga": "^0.16.0"
   },
